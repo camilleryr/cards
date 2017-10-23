@@ -1,0 +1,36 @@
+body {
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+}
+
+#card_container {
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#create_button {
+    align-self: center;
+    width: 80%;
+    height: 50px;
+}
+
+.card {
+    color: white;
+    padding : 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 0px white;
+    margin: 20px;
+}
+
+.card:hover {
+    background-color: red;
+    color: royalblue;
+}
